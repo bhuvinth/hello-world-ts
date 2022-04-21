@@ -18,5 +18,9 @@ This will also build the service
 docker-compose build && docker-compose up 
 ```
 
+## Curl Call to test: 
+```
+curl --location --request GET 'http://localhost:8000/'
+```
 
 
